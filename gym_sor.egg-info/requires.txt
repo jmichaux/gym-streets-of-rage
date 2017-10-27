@@ -1,0 +1,3 @@
+gym>=0.2.3
+rle_python_interface>=1.1.5
+PyOpenGL

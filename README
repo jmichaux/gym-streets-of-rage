@@ -1,0 +1,65 @@
+# gym-streets-of-rage
+Gym Streets of Rage is an envirnment bundle for OpenAI Gym built on top of the Retro Learning Environment
+
+
+Installation
+
+## Dependencies
+
+
+# Important RAM addresses
+
+## Streets of Rage 2
+
+
+
+## Streets of Rage 2
+
+
+## Environment addresses
+
+| Environment Settings    | RAM Address | Values
+| ----------------------- |             |
+| Set Level               |   0xFD0E    |
+| Set Difficulty          |   0xFD04
+| Set Number of Continues |   0xFD06
+| Select Player 1         |
+| Select Player 2         |
+| Current Level           |   0xFC42
+
+## Terminal States
+
+A terminal state is reached whenever an agent runs out of lives or reaches the end of the current level
+
+### Game over
+
+
+| Level | 0xFC44 | 0xFCCE |
+| ----- |
+|   1   |
+|   2   |
+|   3   |
+|   4   |
+|   5   |
+|   6   |
+|   7   |
+|   8   |
+
+## Agent Addresses
+
+|                    |   RAM Address  | Hexidecimal  | Decimal |
+|   ---------        |  ------------  | -------------| --------|
+| Player 1 Character |
+| Player 1 Points    | 0xEF99, 0xEF96 |
+| Player 1 Health    |     0xEFA8     |
+| Player 1 Lives     |     0xEF82     |
+| Player 1 Continues |                |
+| Player 1 Kills     |     0xEF4D     |
+| Player 2 Points    |
+| Player 2 Health    |
+| Player 2 Continues |
+| Player 2 Kills     |
+| Time remaining     |
+
+
+Streets of Rage 3
