@@ -14,7 +14,6 @@ Gym Streets of Rage is an environment bundle for OpenAI Gym built on top of the 
 | Set Difficulty          |   0xFD04
 | Set Number of Continues |   0xFD06
 | Select Player 1         |
-| Select Player 2         |
 | Current Level           |   0xFC42
 
 ### Terminal States
@@ -45,10 +44,6 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 | Player 1 Lives     |     0xEF82     |
 | Player 1 Continues |                |
 | Player 1 Kills     |     0xEF4D     |
-| Player 2 Points    |
-| Player 2 Health    |
-| Player 2 Continues |
-| Player 2 Kills     |
 | Time remaining     |
 
 
@@ -63,7 +58,6 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 | Set Difficulty          |   0xFD04
 | Set Number of Continues |   0xFD06
 | Select Player 1         |
-| Select Player 2         |
 | Current Level           |   0xFC42
 
 ### Terminal States
@@ -94,10 +88,6 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 | Player 1 Lives     |     0xEF82     |
 | Player 1 Continues |                |
 | Player 1 Kills     |     0xEF4D     |
-| Player 2 Points    |
-| Player 2 Health    |
-| Player 2 Continues |
-| Player 2 Kills     |
 | Time remaining     |
 
 
@@ -110,7 +100,6 @@ Streets of Rage 3
 | Set Difficulty          |   0xFD04
 | Set Number of Continues |   0xFD06
 | Select Player 1         |
-| Select Player 2         |
 | Current Level           |   0xFC42
 
 ### Terminal States
@@ -141,8 +130,4 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 | Player 1 Lives     |     0xEF82     |
 | Player 1 Continues |                |
 | Player 1 Kills     |     0xEF4D     |
-| Player 2 Points    |
-| Player 2 Health    |
-| Player 2 Continues |
-| Player 2 Kills     |
 | Time remaining     |
