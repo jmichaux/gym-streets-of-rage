@@ -1,12 +1,13 @@
 # gym-streets-of-rage
-Gym Streets of Rage is an environment bundle for OpenAI Gym built on top of the Retro Learning Environment
+Gym Streets of Rage is an environment bundle for OpenAI Gym built on top of the [Retro Learning Environment](https://github.com/nadavbh12/Retro-Learning-Environment).
 
 ## Installation
 
 #### Dependencies
 
 ## Streets of Rage
-### Environment addresses
+
+#### Environment addresses
 
 | Environment Settings    | RAM Address | Values |
 | ----------------------- | ----------- | ------ |
@@ -16,7 +17,7 @@ Gym Streets of Rage is an environment bundle for OpenAI Gym built on top of the 
 | Select Player 1         |             |        |
 | Current Level           |   0xFC42    |        |
 
-### Terminal States
+#### Terminal States
 
 A terminal state is reached whenever an agent runs out of lives or reaches the end of the current level
 
@@ -31,7 +32,7 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 |   7   |        |        |
 |   8   |        |        |
 
-## Agent Addresses
+#### Agent Addresses
 
 |                    |   RAM Address  | Hexidecimal  | Decimal |
 |   ---------        |  ------------  | -------------| --------|
@@ -47,7 +48,7 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 ## Streets of Rage 2
 
 
-### Environment addresses
+#### Environment addresses
 
 | Environment Settings    | RAM Address | Values |
 | ----------------------- | ----------- | ------ |
@@ -57,7 +58,7 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 | Select Player 1         |             |        |
 | Current Level           |   0xFC42    |        |
 
-### Terminal States
+#### Terminal States
 
 A terminal state is reached whenever an agent runs out of lives or reaches the end of the current level
 
@@ -73,7 +74,7 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 |   8   |        |        |
 
 
-## Agent Addresses
+#### Agent Addresses
 
 |                    |   RAM Address  | Hexidecimal  | Decimal |
 |   ---------        |  ------------  | -------------| --------|
@@ -85,8 +86,9 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 | Player 1 Kills     |     0xEF4D     |              |         |
 
 
-Streets of Rage 3
-### Environment addresses
+## Streets of Rage 3
+
+#### Environment addresses
 
 | Environment Settings    | RAM Address | Values |
 | ----------------------- | ----------- | ------ |
@@ -97,7 +99,7 @@ Streets of Rage 3
 | Current Level           |   0xFC42    |        |
 | Time remaining          |             |        |
 
-### Terminal States
+#### Terminal States
 
 A terminal state is reached whenever an agent runs out of lives or reaches the end of the current level
 
@@ -112,7 +114,7 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 |   7   |        |        |
 |   8   |        |        |
 
-## Agent Addresses
+#### Agent Addresses
 
 |                    |   RAM Address  | Hexidecimal  | Decimal |
 |   ---------        |  ------------  | -------------| --------|
