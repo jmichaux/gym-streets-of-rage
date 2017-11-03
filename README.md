@@ -20,12 +20,9 @@ Gym Streets of Rage is an environment bundle for OpenAI Gym built on top of the 
 
 A terminal state is reached whenever an agent runs out of lives or reaches the end of the current level
 
-
-
-
 | Level | 0xFC44 | 0xFCCE |
-| ----- |        |        |
-|   1   |                 |
+| ----- |  ----  | ----   |
+|   1   |        |        |
 |   2   |        |        |
 |   3   |        |        |
 |   4   |        |        |
@@ -65,7 +62,7 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 A terminal state is reached whenever an agent runs out of lives or reaches the end of the current level
 
 | Level | 0xFC44 | 0xFCCE |
-| ----- |        |        |
+| ----- |  ----  | ----   |
 |   1   |        |        |
 |   2   |        |        |
 |   3   |        |        |
@@ -91,8 +88,6 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 Streets of Rage 3
 ### Environment addresses
 
-### Environment addresses
-
 | Environment Settings    | RAM Address | Values |
 | ----------------------- | ----------- | ------ |
 | Set Level               |   0xFD0E    |        |
@@ -107,8 +102,8 @@ Streets of Rage 3
 A terminal state is reached whenever an agent runs out of lives or reaches the end of the current level
 
 | Level | 0xFC44 | 0xFCCE |
-| ----- |        |        |
-|   1   |                 |
+| ----- |  ----  | ----   |
+|   1   |        |        |
 |   2   |        |        |
 |   3   |        |        |
 |   4   |        |        |
@@ -116,7 +111,6 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 |   6   |        |        |
 |   7   |        |        |
 |   8   |        |        |
-
 
 ## Agent Addresses
 
