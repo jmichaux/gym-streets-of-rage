@@ -60,23 +60,30 @@ A terminal state is reached whenever an agent runs out of lives or reaches the e
 
 #### Terminal States
 
-A terminal state is reached whenever an agent runs out of lives or reaches the end of the current level
+A terminal state is reached whenever an agent runs out of health and lives: 
 
-| Level | 0xFC44 | 0xFCCE |
-| ----- |  ----  | ----   |
-|   1   |   0    |  12    |
-|   2   |        |  12    |
-|   3   |        |   12   |
-|   4   |        |        |
-|   5   |        |        |
-|   6   |        |        |
-|   7   |        |        |
-|   8   |        |        |
+|        | RAM Address | Values |
+| -----  |  ----       | ----   |
+| Health |   0xEF80    |  0     |
+| Lives  |   0XEF82    |  0     |
+
+A terminal state is also reached whenever an agent reaches the end of a specified level:
+
+| Level | 0xFC44  | 0xFCCE |
+| ----- |  ----   | ----   |
+|   1   |   0     |  12    |
+|   2   |   0     |  12    |
+|   3   |   0     |  16    |
+|   4   |   0     |  22    |
+|   5   |   0     |  10    |
+|   6   |   0     |  10    |
+|   7   |   0     |  18    |
+|   8   |   0     |  10    |
 
 
 #### Agent Addresses
 
-|                    |   RAM Address  | Hexidecimal  | Decimal |
+|  Agent Attributes  |   RAM Address  | Hexidecimal  | Decimal |
 |   ---------        |  ------------  | -------------| --------|
 | Player 1 Character |                |              |         |
 | Player 1 Points    | 0xEF99, 0xEF96 |              |         |
