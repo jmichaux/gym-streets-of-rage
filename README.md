@@ -7,7 +7,10 @@ Gym SoR (Streets of Rage) is an environment bundle for OpenAI Gym built on top o
 
 ## Streets of Rage
 
-
 ## Streets of Rage 2
 
 ## Streets of Rage 3
+
+
+## Acknowledgements
+- [@nadavbh12](https://github.com/nadavbh12) for his work on RLE.
