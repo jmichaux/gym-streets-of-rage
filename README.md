@@ -1,4 +1,4 @@
-# gym-streets-of-rage
+# gym-sor
 Gym SoR (Streets of Rage) is an environment bundle for OpenAI Gym built on top of the [Retro Learning Environment](https://github.com/nadavbh12/Retro-Learning-Environment). 
 
 ## Installation
