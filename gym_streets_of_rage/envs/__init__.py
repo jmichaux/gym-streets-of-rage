@@ -1,1 +1,1 @@
-from gym_sor.envs.sor2_1_player_env import Sor2Env
+from gym_streets_of_rage.envs.streets_of_rage_env import SorEnv

@@ -1,12 +1,12 @@
 import gym
-import gym_sor
+import gym_streets_of_rage
 
-env = gym.make('StreetsOfRage2-Max-3-6-3-v0')
+
+env = gym.make('streets_of_rage_ii_2_players-max-skate-3-4-v0')
 env.reset()
 env.render()
 #a = env.get_image()
 #print(a)
 while True:
-	action=0
-	env.step(action)
+	env.step(16)
 	env.render()
