@@ -1,0 +1,4 @@
+gym_sor.egg-info/*
+names.py
+.ipynb_checkpoints/*
+*.:ipynb
