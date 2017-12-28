@@ -6,6 +6,6 @@ setup(name='gym_streets_of_rage',
       url='https://github.com/jmichaux/gym-streets-of-rage',
       author='Jonathan Michaux',
       author_email='jmichaux@ttic.edu', 
-      install_requires=['gym>=0.2.3',
+      install_requires=['gym>=0.8.0',
                         'rle_python_interface>=1.1.5', 'PyOpenGL']
 )
